@@ -1,0 +1,51 @@
+@import "../../app/variable";
+.css-15rfbsb-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  color: $primary-color;
+}
+.css-15rfbsb-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+  color: $success-color;
+}
+.stepper {
+  padding: 20px 0;
+
+  &-header {
+    background-color: $background-color--light;
+    padding: 20px 5px;
+    border-radius: 8px;
+    margin: 40px 0;
+  }
+  &-content {
+    padding: 20px 0;
+    min-height: 50vh;
+
+    .file-type-list-section {
+      padding: 20px;
+      background-color: $background-color--light;
+    }
+  }
+}
+
+.upload-file-section {
+  border: 2px dashed #cecece;
+  border-radius: 8px;
+  padding: 100px;
+  text-align: center;
+  background: $background-color--light;
+  transition: background 0.3s;
+  margin-top: 40px 0;
+  cursor: pointer;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    span {
+      color: #cecece;
+    }
+  }
+}
+
+.upload-file-section.is-drag-active {
+  background: #f0f8ff;
+}

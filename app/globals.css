@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+body,
+p {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+}

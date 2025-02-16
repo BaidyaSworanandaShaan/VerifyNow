@@ -1,0 +1,16 @@
+<style>
+  #container {
+    display: flex;
+    justify-content: center;
+  }
+  canvas {
+    position: absolute;
+  }
+</style>
+<h1 id="match-status">Waiting for match...</h1>
+<video id="video-feed" autoplay muted></video>
+<canvas id="canvas"></canvas>
+<input type="file" id="imageUpload" accept="image/*" />
+
+<script src="./face-api.min.js"></script>
+<script src="./scripts.js"></script>
